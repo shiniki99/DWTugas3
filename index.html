@@ -1,0 +1,101 @@
+<!doctype HTML>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Ayo Ke Jogja!!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/onepage-scroll.css">
+	<link href="assets/css/metro.css" rel="stylesheet">
+	<link href="assets/css/metro-icons.css" rel="stylesheet">
+	<link href="assets/css/metro-responsive.css" rel="stylesheet">
+	<link href="assets/fonts/Righteous" rel="stylesheet" type="text/css">
+	<link href="assets/fonts/Voltaire" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="menubar">
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<a href="index.html"><img src="assets/img/logo1.png" alt="logo mini"></a>
+	</header>
+	<div class="main">
+		<section class="page1">
+			<div class="one">
+			<img src="assets/img/sleman-k.png" style="float:right;" alt="logo-sleman">
+				<div class="page-container">
+					<h2>Sleman</h2>
+					<p>Kabupaten ini berbatasan dengan Provinsi Jawa Tengah di utara dan timur, Kabupaten Gunung Kidul, Kabupaten Bantul, dan Kota Yogyakarta di selatan, serta Kabupaten Kulon Progo di barat. Pusat pemerintahan di Kecamatan Sleman, yang berada di jalur utama antara Yogyakarta – Semarang.</p>
+					<span><a href="sleman.html">See More</a></span>
+				</div>
+			</div>
+		</section>
+		<section class="page2">
+			<div class="two">
+			<img src="assets/img/bantul-k.png" style="float:right;" alt="logo-bantul">
+				<div class="page-container">
+					<h2>Bantul</h2>
+					<p>Moto kabupaten ini adalah Projotamansari singkatan dari Produktif-Profesional, Ijo royo royo, Tertib, Aman, Sehat, dan Asri. Kabupaten ini berbatasan dengan Kota Yogyakarta dan Kabupaten Sleman di utara, Kabupaten Gunung Kidul di timur, Samudra Hindia di selatan, serta Kabupaten Kulon Progo di barat. Objek wisata Pantai Parangtritis terdapat di wilayah kabupaten ini.</p>
+					<span><a href="bantul.html">See More</a></span>
+				</div>
+			</div>
+		</section>
+		<section class="page3">
+			<div class="three">
+			<img src="assets/img/yk-k.png" style="float:right;" alt="logo-yogyakarta">
+				<div class="page-container">
+					<h2>Yogyakarta</h2>
+					<p>Kota Yogyakarta adalah kediaman bagi Sultan Hamengkubawana dan Adipati Paku Alam. Kota Yogyakarta merupakan salah satu kota terbesar di Indonesia dan kota terbesar kempat di wilayah Pulau Jawa bagian selatan setelah Bandung, Malang, dan Surakarta menurut jumlah penduduk.</p>
+					<span><a href="yogyakarta.html">See More</a></span>
+				</div>
+			</div>
+		</section>
+		<section class="page4">
+			<div class="four">
+			<img src="assets/img/kulonprogo-k.png" style="float:right;" alt="logo-kulonprogo">
+				<div class="page-container">
+					<h2>Kulon Progo</h2>
+					<p>Kabupaten ini berbatasan dengan Kabupaten Sleman dan Kabupaten Bantul di timur, Samudra Hindia di selatan, Kabupaten Purworejo di barat, serta Kabupaten Magelang di utara. Nama Kulon Progo berarti sebelah barat Sungai Progo (kata kulon dalam Bahasa Jawa artinya barat). Kali Progo membatasi kabupaten ini di sebelah timur.</p>
+					<span><a href="kulon-progo.html">See More</a></span>
+				</div>
+			</div>
+		</section>
+		<section class="page5">
+			<div class="five">
+			<img src="assets/img/gk-k.png" style="float:right;" alt="logo-gunungkidul">
+				<div class="page-container">
+					<h2>Gunungkidul</h2>
+					<p>Kabupaten Gunungkidul adalah salah satu kabupaten yang ada di Daerah Istimewa Yogyakarta, dengan Ibukotanya Wonosari. Luas wilayah Kabupaten Gunungkidul 1.485,36 km2 atau sekitar 46,63 % dari luas wilayah Daerah Istimewa Yogyakarta. Kota Wonosari terletak di sebelah tenggara kota Yogyakarta (Ibukota Daerah Istimewa Yogyakarta), dengan jarak ± 39 km. Wilayah Kabupaten Gunungkidul dibagi menjadi 18 Kecamatan dan 144 desa.</p>
+					<span><a href="gunungkidul.html">See More</a></span>
+				</div>
+			</div>
+		</section>
+	</div>
+	
+		<script src="assets/js/jquery-2.1.3.min.js"></script>
+		<script src="assets/js/metro.js"></script>
+		<script>
+			$(function(){
+				$('.sidebar').on('click', 'li', function(){
+					if (!$(this).hasClass('active')){
+						$('.sidebar li').removeClass('active');
+						$(this).addClass('active');
+					}
+				})
+			})
+		</script>
+	<script type="text/javascript" src="assets/jquery/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="assets/jquery/jquery.onepage-scroll.js"></script>
+	<script type="text/javascript">
+		$(".main").onepage_scroll({
+			sectionContainer: "section",
+			easing: "cubic-bezier(0.180, 0.900, 0.410, 1.120)"
+		});
+	</script>
+</body>
+</html>

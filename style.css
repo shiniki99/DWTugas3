@@ -1,0 +1,355 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color:#dfdfdf;
+}
+h2{
+	font-family: 'Righteous', cursive;
+}
+h1{
+	font-family: 'Righteous', cursive;
+}
+p{
+	font-family: 'Voltaire', sans-serif;
+	margin-right: 200px;
+}
+small {
+	color: #b69877;
+}
+small a, p a{
+		color: #ddd;
+		text-decoration:none;
+}
+/* header */
+header {
+	background: red;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+header a{
+	color: #dddddd;
+	text-decoration: none;
+}
+header img{
+	float: right;
+	height: 40px;
+	width: auto;
+}
+.menubar {
+	float:left;
+	font-family: 'Righteous', cursive;
+	color: white;
+	margin-top: 10px;
+}
+.menu {
+	list-style: none;
+	font-weight : bold;
+}
+.menu li{
+	float: left;
+	padding-right: 25px;
+}
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #000000;
+}
+
+/* Content */
+.main {
+	right: 30px;
+}
+.page1 {
+	background-image: url(assets/img/bg-sleman.jpg);
+	background-size:100% 100%;
+}
+.page2 {
+	background-image: url(assets/img/bg-bantul.jpg);
+	background-size:100% 100%;
+}
+.page3 {
+	background-image: url(assets/img/bg-yk.jpg);
+	background-size:100% 100%;
+}
+.page4 {
+	background-image: url(assets/img/bg-kulonprogo.jpg);
+	background-size:100% 100%;
+}
+.page5 {
+	background-image: url(assets/img/bg-gunungkidul.jpg);
+	background-size:100% 100%;
+}
+.one {
+	padding:30px;
+}
+.one .page-container {
+	position: absolute;
+	bottom: 100px;
+	margin-left:-500px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+	background-color:rgba(255,255,255,0.85);
+	padding:20px;
+}
+
+.one .page-container h2{
+	font-size: 4em;
+}
+.one .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.one .page-container span{
+	float:right;
+}
+.one .page-container span a{
+	font-family: 'Righteous', cursive;
+	color:black;
+	text-decoration:none;
+}
+.one .page-container span a:hover{
+	color:#999999;
+	text-decoration:underline;
+}
+
+.two {
+	padding:30px;
+}
+.two .page-container {
+	position: absolute;
+	bottom: 100px;
+	margin-left:-500px;
+	left: 50%;
+	margin-bottom: 150px;
+	background-color:rgba(255,255,255,0.85);
+	max-width: 650px;
+	padding:20px;
+}
+.two .page-container h2 {
+	font-size: 4em;
+}
+.two .page-container p{
+	padding : 20px 0;
+	line-height: 1.5em;
+}
+.two .page-container span{
+	float:right;
+}
+.two .page-container span a{
+	font-family: 'Righteous', cursive;
+	color:black;
+	text-decoration:none;
+}
+.two .page-container span a:hover{
+	color:#999999;
+	text-decoration:underline;
+}
+.three {
+	padding:30px;
+}
+.three .page-container {
+	position: absolute;
+	bottom: 100px;
+	margin-left:-500px;
+	left: 50%;
+	margin-bottom: 150px;
+	background-color:rgba(255,255,255,0.85);
+	max-width: 650px;
+	padding:20px;
+}
+.three .page-container h2{
+	font-size: 4em;
+}
+.three .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.three .page-container span{
+	float:right;
+}
+.three .page-container span a{
+	font-family: 'Righteous', cursive;
+	color:black;
+	text-decoration:none;
+}
+.three .page-container span a:hover{
+	color:#999999;
+	text-decoration:underline;
+}
+.four {
+	padding:30px;
+}
+.four .page-container {
+	position: absolute;
+	bottom: 100px;
+	margin-left:-500px;
+	left: 50%;
+	margin-bottom: 150px;
+	background-color:rgba(255,255,255,0.85);
+	max-width: 650px;
+	padding:20px;
+}
+.four .page-container h2{
+	font-size: 4em;
+}
+.four .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.four .page-container span{
+	float:right;
+}
+.four .page-container span a{
+	font-family: 'Righteous', cursive;
+	color:black;
+	text-decoration:none;
+}
+.four .page-container span a:hover{
+	color:#999999;
+	text-decoration:underline;
+}
+.five {
+	padding:30px;
+}
+.five .page-container {
+	position: absolute;
+	bottom: 100px;
+	margin-left:-500px;
+	left: 50%;
+	margin-bottom: 150px;
+	background-color:rgba(255,255,255,0.85);	
+	max-width: 650px;
+	padding:20px;
+}
+.five .page-container h2{
+	font-size: 4em;
+}
+.five .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.five .page-container span{
+	float:right;
+}
+.five .page-container span a{
+	font-family: 'Righteous', cursive;
+	color:black;
+	text-decoration:none;
+}
+.five .page-container span a:hover{
+	color:#999999;
+	text-decoration:underline;
+}
+.sleman {
+	background-image: url(assets/img/sleman-bg.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	height:100%;
+}
+.bantul {
+	background-image: url(assets/img/bantul-bg.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	height:100%;
+}
+.yogyakarta {
+	background-image: url(assets/img/yk-bg.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	height:100%;
+}
+.kulonprogo {
+	background-image: url(assets/img/kulonprogo-bg.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	height:100%;
+}
+.gunungkidul {
+	background-image: url(assets/img/gunungkidul-bg.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	height:100%;
+}
+.about {
+	background-image: url(assets/img/tentangkami.jpeg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	height:100%;
+}
+.contact {
+	background-image: url(assets/img/contact.jpeg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	height:100%;
+}
+.main-artikel {
+	width:950px;
+	right: 30px;
+	margin: 20px auto;
+}
+#daftar-artikel{
+	float: left;
+}
+.artikel {
+	background-color:rgba(255,255,255,0.8);
+	padding: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-radius : 15px;
+}
+.artikel img {
+	float: left;
+	margin-right: 10px;
+	width : 300px;
+	height: auto;
+}
+.artikel b{
+	margin: 10px 0;
+}
+.artikel a{
+	display: block;
+	text-align: right;
+	color: #636363;
+}
+.artikel p{
+	text-align:justify;
+	margin-right:0;
+}
+.aboutus {
+	background-color:rgba(255,255,255,0.8);
+	padding: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-radius : 15px;
+}
+.aboutus img {
+	margin-right: 10px;
+	width : 900px;
+	height: auto;
+}
+.aboutus b{
+	margin: 10px 0;
+}
+.aboutus a{
+	display: block;
+	text-align: right;
+	color: #636363;
+}
+.aboutus p{
+	text-align:justify;
+	margin-right:0;
+}
+.bread-crumb {
+	padding:10px 10px 10px 30px;
+	margin-bottom:20px;
+	background-color:rgba(255,255,255,0.8);
+	border-radius: 15px;
+}
